@@ -1,8 +1,8 @@
 <template>
   <div class="dashboard">
     <v-subheader class="d-flex justify-space-between align-center">
-      <h3>Dashboard</h3>
-      <v-btn variant="flat" color="success" rounded="lg">View Orders</v-btn>
+      <h3 class="mb-5">Dashboard</h3>
+      <v-btn variant="flat" color="success" rounded="lg" class="mb-5">View Orders</v-btn>
     </v-subheader>
     <v-row>
       <v-col lg="8" cols="12">
@@ -34,7 +34,7 @@
     </v-row>
     <v-row>
       <v-col lg="12">
-          <DashboardTable />
+        <DashboardTable />
       </v-col>
     </v-row>
   </div>

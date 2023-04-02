@@ -4,22 +4,16 @@
       <v-img gradient="to top right, rgba(19,84,122,.8), rgba(128,208,199,.8)"></v-img>
     </template>
 
-    <v-app-bar-title><v-icon>mdi mdi-monitor</v-icon> Admin Dashboard</v-app-bar-title>
-
-    <v-spacer />
-
-    <v-col lg="4" cols="8">
-      <v-form class="mt-5">
-        <v-text-field placeholder="Search Here" variant="solo" append-inner-icon="mdi-magnify"></v-text-field>
-      </v-form>
+    <v-col>
+      <v-app-bar-title><v-icon>mdi mdi-monitor</v-icon> Admin Dashboard</v-app-bar-title>
     </v-col>
 
     <v-spacer />
 
     <v-menu offset-y>
       <template v-slot:activator="{ props }">
-        <span style="cursor: pointer" class="mx-5 mr-10">
-          <v-icon v-bind="props" class="mx-5 mr-10">
+        <span style="cursor: pointer">
+          <v-icon v-bind="props" class="mx-5 mr-5">
             mdi mdi-bell-ring-outline
           </v-icon>
         </span>
